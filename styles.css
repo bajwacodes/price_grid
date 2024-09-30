@@ -145,6 +145,18 @@ li{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    section{
+        padding: 2.5rem;
+    }
+
+    .desc-1{
+        margin-bottom: 0;
+    }
+    
+    .desc-2{
+        text-wrap: nowrap;
+    }
  
     .top{
         grid-column: 1 / 3;
